@@ -5,14 +5,13 @@
     font-family: sans-serif;
 }
 .sec1{
-    /* background-image: url('img/mario-gogh-VBLHICVh-lI-unsplash.jpg'); */
+    background-image: url('img/mario-gogh-VBLHICVh-lI-unsplash.jpg');
     width: 1349px;
-    /* background-size: cover; */
+    height: 650px;
+    background-size: cover;
     margin: auto;
 }
 .section1{
-    background-image: url('img/mario-gogh-VBLHICVh-lI-unsplash.jpg');
-    background-size: cover;
     width: 100%;
     height: 650px;
 }
@@ -20,11 +19,6 @@
     max-width: 90%;
     margin: auto;
 }
-/* @media (max-width: 768px) {
-    .container {
-        max-width: 100%;
-    }
-} */
 .hero{
     width: 100%;
     height: 45px;
@@ -140,7 +134,6 @@ a{
 }
 .box1 ul{
     list-style: circle inside url('img/icons8-clock-20.png');
-
 }
 .c-card1{
     width: 100px;
@@ -170,7 +163,8 @@ a{
     margin-left: 25px;
 }
 .sec2{
-    width: 100%;
+    width: 1349px;
+    margin: auto;
     height: 300px;
     background-color: #000033;
     margin-top: 900px;
@@ -206,34 +200,36 @@ a{
 }
 .boxcard{
     width: 100%;
-    height: 300px;
     display: flex;
-    /* margin-left: 10px; */
     gap: 20px;
 }
-.imgbox img{
-    width: 100%;
-    height:200px;
-    /* gap: 20px; */
-    /* box-shadow: 0px 10px 0px 0px rgb(227, 223, 223); */
-
-    /* background-color: blue; */
-}
 .imgbox{
-    width: 100%;
-    /* height: 400px; */
+    width: 600px;
+    height: 400px;
+    border: 0px solid rgb(227, 223, 223);
     gap: 20px;
     box-shadow: 0px 10px 0px 0px rgb(227, 223, 223);
 }
-.card-text{
-    padding: 20px 20px;
+.imgbox img{
+    width: 257px;
+    height:150px;
 }
-.card-text ul{
+.imgbox h3{
+    padding: 10px;
+    color: #000033;
+}
+.imgbox h5{
+    padding: 10px;
+    color: gray;
+}
+.imgbox ul{
     list-style: circle inside url('img/icons8-checkmark-20.png');
+    margin-left: 10px;
 }
 #btn{
-    margin-top: 10px;
+    margin-top: 30px;
     color: orangered;
+    margin-left: 10px;
 }
 #imgbtn{
     width: 20px;
@@ -242,9 +238,10 @@ a{
 .background-img{
     margin-top: 100px;
     position: relative;
+    margin: auto;
     background-image: url('img/ben-o-bro-wpU4veNGnHg-unsplash.jpg');
     background-size: cover;
-    width: 100%;
+    width: 1349px;
     height: 800px;
 }
 .background-color{
@@ -254,12 +251,14 @@ a{
     background-color:rgba(236, 236, 248, 0.8);
 }
 .sec3{
-    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+    width: 1349px;
     position: absolute;
 }
 .inner2{
     margin: auto;
-    margin-top: 160px;
+    margin-top: 200px;
     width: 830px;
     color: white;
     display: flex;
@@ -296,12 +295,12 @@ a{
     height: 40px;
     border-radius: 50%;
     background-color: gray;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 .three-box{
     width: 700px;
     margin: auto;
-    margin-top: 80px;
+    margin-top: 70px;
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
@@ -312,9 +311,9 @@ a{
 }
 .sec4{
     width: 830px;
-    height: 200px;
+    height: 220px;
     margin: auto;
-    margin-top: 800px;
+    margin-top: 820px;
     background-color: #000033;;
     position: relative;
     display: flex;
@@ -416,8 +415,8 @@ a{
     margin-left: 50px;
 }
 .sec6{
-    width: 100%;
-    /* width: 1349px; */
+    margin: auto;
+    width: 1349px;
     display: flex;
     gap: 1px;
     margin-top:60px;
@@ -460,9 +459,9 @@ a{
     border-radius: 5px;
 }
 .sec7{
-    width: 100%;
+    width: 1349px;
+    margin: auto;
     background-color: #000033;
-    /* width: 1349px; */
     height: 350px;
 
 }
